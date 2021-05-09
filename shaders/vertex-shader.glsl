@@ -44,7 +44,6 @@
             if (textureColor.y > 0.2) {
                 position+=normal*0.05; 
             } else {
-                //position+=normal*(sin((uv.x+uv.y)*18.0*PI+time*20.0) + cos((uv.x-uv.y)*18.0*PI-time*20.0))*0.01;
                 position+=normal*(sin((uv.x+uv.y)*18.0*PI+time*40.0) + cos((uv.x-uv.y)*18.0*PI-time*10.0))*0.01;
             }
 
